@@ -1,0 +1,23 @@
+{
+  "name": "bun-asg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "bun": "^1.2.20",
+    "express": "^5.1.0",
+    "os": "^0.1.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
+}
