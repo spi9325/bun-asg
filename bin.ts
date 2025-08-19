@@ -8,5 +8,5 @@ if(cluster.isPrimary){
         cluster.fork()
     }
 }else{
-    app.listen(8080,()=>console.log(`process ${process.pid}`))
+    app.listen(3000,()=>console.log(`process ${process.pid}`))
 }
